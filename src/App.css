@@ -1,0 +1,47 @@
+body{
+  margin:0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  
+}
+
+.container{
+  width: 50%;
+  margin:auto;
+  margin-left: 100px;
+  padding: 15px;
+  background-color: #fff;
+  margin-top:35px;
+  border-radius: 8px;
+}
+.inputs{
+   display:flex;
+   justify-content: center;
+   margin-top:20px;
+   gap:5px;
+}
+input{
+  width:70%;
+  padding: 10px;
+  font-size:26px;
+  border-radius:25px;
+  border:none;
+  background-color: lightgreen;
+  box-shadow: 0px 3px 2px rgb(218,218,218);
+}
+.errorPage{
+  text-align:center;
+  font-size: 26px;
+  color: black;
+}
+.weather{
+  text-align: center;
+}
+.weather p{
+  font-size:  30px;
+  color:black
+}
+.weather img{
+  width: 180px;
+  margin-top: 5px;
+}
